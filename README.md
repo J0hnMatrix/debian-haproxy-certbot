@@ -130,7 +130,7 @@ https://haproxy.debian.net/
 
 * Préparer le premier certificat pour HAProxy
 ```console
-sudo cat /etc/letsencrypt/live/your.domain.fr/fullchain.pem /etc/letsencrypt/live/your.domain.fr/privkey.pem > /etc/haproxy/certs/
+sudo cat /etc/letsencrypt/live/your.domain.fr/fullchain.pem /etc/letsencrypt/live/your.domain.fr/privkey.pem > /etc/haproxy/certs/your.domain.fr.pem
 ```
 
 * Créer le répertoire pour HAProxy dans **~/**
