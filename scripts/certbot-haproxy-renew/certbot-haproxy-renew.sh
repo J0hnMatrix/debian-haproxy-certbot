@@ -41,7 +41,7 @@ if [ ! -f $config_file ]; then
 				certbot renew
 
 				echo "Creating $combined_file with latest certs..."
-				cat $cert_path/$domain/fullchain.pem $cert_path/$domain/privkey.pem > $combined_file
+				cat $cert_file $key_file > $combined_file
 			
 				echo "Renewal process finished for domain $domain"
 				
