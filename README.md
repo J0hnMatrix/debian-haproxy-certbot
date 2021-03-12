@@ -214,4 +214,4 @@ sudo incrontab -e
 sudo service incron restart
 ```
 
-## Tester !
+## Tester en buvant une bonne bière (ou un bon café) ! :)
