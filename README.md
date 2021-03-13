@@ -3,7 +3,7 @@
 Ce tuto a pour but d'installer HAProxy et Certbot sur Linux (PC, serveur, VM, Raspberry,...) et ainsi avoir un Reverse Proxy avec renouvellement automatique des certificats SSL Letsencrypt.
 
 ## Prérequis :
- * Avoir déployé une VM Debian
+ * Avoir un PC Linux (ici Debian)
  * Avoir un nom de domaine auprès d'un bureau d'enregistrement compatible avec la fonction DNS01 de Certbot https://certbot.eff.org/docs/using.html#dns-plugins
  * Avoir un mail faisant office de compte technique pour l'envoi de mail (ex: certbot.your.domain.fr@gmail.com)
  * Avoir récupéré le token auprès du bureau d'enregistrement (ici OVH : https://certbot-dns-ovh.readthedocs.io/en/stable/)
