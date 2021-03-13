@@ -1,6 +1,6 @@
 # **HAProxy & Certbot**
 
-Ce tuto a pour but d'installer HAProxy et Certbot sur la même VM Linux et ainsi avoir un Reverse Proxy avec renouvellement automatique des certificats SSL Letsencrypt.
+Ce tuto a pour but d'installer HAProxy et Certbot sur Linux (PC, serveur, VM, Raspberry,...) et ainsi avoir un Reverse Proxy avec renouvellement automatique des certificats SSL Letsencrypt.
 
 ## Prérequis :
  * Avoir déployé une VM Debian
