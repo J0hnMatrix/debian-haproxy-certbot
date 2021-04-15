@@ -123,6 +123,23 @@ sudo certbot certonly \
   -d *.your.domain.fr
 ```
 
+* Vérifier si certbot a mis en place un timer Systemd pour renouveller automatiquement les certificats de son côté :
+```console
+systemctl list-timers
+```
+
+* Si oui (une ligne contenant snap.certbot.renew.timer devrait être affichée), le désactiver sinon le script ne se lancera jamais :
+```console
+sudo systemctl disable snap.certbot.renew.timer
+sudo systemctl stop snap.certbot.renew.timer
+```
+
+* Vérifier en tapant la commande :
+```console
+systemctl list-timers
+```
+
+
 ## Installation et configuration de HAProxy
 
 * Installer HAProxy via la procédure :
