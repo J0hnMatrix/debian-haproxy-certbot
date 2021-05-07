@@ -8,7 +8,7 @@ domain=$i
 user='your-username'
 home="/home/$user"
 web_service='haproxy'
-exp_limit=2
+exp_limit=15
 
 cert_file="$cert_path/$domain/fullchain.pem"
 key_file="$cert_path/$domain/privkey.pem"
