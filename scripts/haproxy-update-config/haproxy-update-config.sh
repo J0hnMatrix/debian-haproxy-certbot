@@ -1,3 +1,4 @@
+#!/bin/bash
 date=$(date "+%d%m%Y_%H%M%S")
 user='your-username'
 home="/home/$user"
